@@ -1,0 +1,29 @@
+# YIDAN CAO LLC
+
+Smart Software Tools for Modern Digital Workflows. YIDAN CAO LLC provides secure cloud-based software tools, SaaS subscriptions, digital workflow resources, and productivity solutions for individuals and businesses.
+
+## Services
+- Cloud Productivity Tools
+- Digital Automation Resources
+- Secure SaaS Access
+- Business Dashboard Solutions
+
+## Plans
+- Starter Plan: $19/month
+- Professional Plan: $49/month (Most Popular)
+- Business Plan: $99/month
+
+## Delivery
+All services are delivered digitally. No physical products are shipped.
+
+## Pages
+- / — Homepage with all sections
+- /success — Payment confirmation
+- /cancel — Payment cancellation
+- /terms — Terms of Service
+- /privacy — Privacy Policy
+- /refund-policy — Refund Policy
+- /digital-delivery-policy — Digital Delivery Policy
+
+## Contact
+hello-yidancao@proton.me

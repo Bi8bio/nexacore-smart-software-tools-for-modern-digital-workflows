@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-950 text-gray-100;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-surface/80 backdrop-blur-xl border border-surface-border rounded-2xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-semibold text-sm sm:text-base
+           bg-gradient-to-r from-cyan-500 to-teal-500 text-gray-950
+           hover:from-cyan-400 hover:to-teal-400
+           transition-all duration-200 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-semibold text-sm sm:text-base
+           border border-gray-700 text-gray-200
+           hover:border-gray-500 hover:bg-gray-800
+           transition-all duration-200;
+  }
+
+  .section-heading {
+    @apply text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4;
+  }
+
+  .section-subheading {
+    @apply text-gray-400 text-base sm:text-lg max-w-2xl;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(34, 211, 238, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(34, 211, 238, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .bg-glow {
+    background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(34, 211, 238, 0.15), transparent);
+  }
+}
